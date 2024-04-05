@@ -1,0 +1,8 @@
+path: ../dataset/retail_product_checkout_dataset # dataset root dir
+train: train.txt # train images (relative to 'path')  53739 images
+val: val.txt # val images (relative to 'path')  6000 images
+test: test.txt # test images (optional)  24000 images
+
+# Classes
+names:
+  0: object
